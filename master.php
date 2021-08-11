@@ -231,15 +231,13 @@
                   <!-- form start -->
                   <form id="loginForm" name="loginForm" role="form">
                      <div class="modal-body">
-                        <p class="login-box-msg">Log in using your corporate account</p>
+                        <p class="login-box-msg"><img src="<?php echo $ROOT; ?>dist/img/logo.svg" alt="Logo" class="img-circle elevation-1" height="70" width="70"></p>
+                        <p class="login-box-msg">Log in with your corporate account</p>
                         <div class="form-group">
                            <input class="form-control" id="username" name="username" placeholder="username or email" type="username">
                         </div>
                         <div class="form-group">
                            <input autocomplete="on" class="form-control" id="password" name="password" placeholder="password" type="password">
-                        </div>
-                        <div class="row">
-                           <p class="login-box-msg"><small><i class="fas fa-exclamation-triangle text-warning"></i> <b>Your credentials are not stored on WebIMS.</b> Credentials are verified using <a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol" rel="noreferrer" target="_blank">LDAP</a> authentication.</small></p>
                         </div>
                      </div>
                      <div class="card-footer">
@@ -264,7 +262,7 @@
             &copy; <?php echo date('Y'); ?> <a href="https://zammitjohn.com" target="_blank" rel="noreferrer"><strong>John Zammit</strong></a>.
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
-               <b>Version</b> 2.8.1
+               <b>Version</b> 2.8.2
             </div>
          </footer>
       </div>
